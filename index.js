@@ -13,11 +13,11 @@
 //     let result = wrapAdjective(`you are ${name}` )
 //     let emphatic = result("a hard worker")
 //     }
-function saturdayFun(activity = "roller-skate") {
-    return `This Saturday, I want to ${activity}!`
+function saturdayFun( action = "roller-skate") {
+    return `This Saturday, I want to ${action}!`
 }
-const mondayWork = function (activity = "go to the office") {
-    return `This Monday, I will ${activity}.`;
+const mondayWork = function (action = "go to the office") {
+    return `This Monday, I will ${action}.`;
 }
 function wrapAdjective(visual = "*") {
     return function (adj = "special") {
